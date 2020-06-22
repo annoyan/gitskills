@@ -15,5 +15,5 @@ steps:
   image: alpine
   commands:
   - echo "test1"
-  - exit 1
+  - exit 0
   - echo "hello world"
