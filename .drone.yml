@@ -12,10 +12,3 @@ steps:
   commands:
   - echo "test1"
   - echo "test2"
-
-- name: testing2
-  pull: always
-  image: docker.mediatek.io/cpc/test
-  commands:
-  - echo "test1"
-  - echo "test2"
