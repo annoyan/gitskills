@@ -1,5 +1,8 @@
-kind: pipeline
+# kind: pipeline secret signature
+kind: pipeline 
+# type: the type of pipeline
 type: docker
+# name: a name for your pipeline
 name: default
 
 platform:
@@ -12,4 +15,5 @@ steps:
   image: alpine
   commands:
   - echo "test1"
+  - exit 1
   - echo "hello world"
